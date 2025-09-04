@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling & JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#responsive">Responsive Layout</a>
+        <a href="#quiz">Interactive Quiz</a>
+        <a href="#api">API Example</a>
+    </nav>
+    <section id="responsive">
+        <h1>Responsive Design Example</h1>
+        <div class="container">
+            <div class="card">Content 1</div>
+            <div class="card">Content 2</div>
+            <div class="card">Content 3</div>
+        </div>
+    </section>
+    <section id="quiz">
+        <div class="quiz-box" id="quiz-box">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <button onclick="nextQuestion()">Next</button>
+            <p id="result"></p>
+        </div>
+    </section>
+    <section id="api">
+        <h1>Get a Random Joke</h1>
+        <button onclick="getJoke()">Tell me a joke</button>
+        <div class="joke-box" id="joke"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
